@@ -1,0 +1,115 @@
+.card {
+  width: 300px;
+  height: 120px;
+  margin: 140px auto 50px;
+  position: relative;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 1px 5px #ada5c754;
+  transition: 1s;
+}
+
+.mainText {
+  width: 0;
+  height: 0;
+  padding-left: 10px;
+  top: 250px;
+  overflow: hidden;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ada5c7;
+  overflow-y: scroll;
+  transition: .5s;
+  opacity: 0;
+}
+
+.image {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -140px;
+  text-align: center;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 0 1px 5px #ada5c754;
+  transition: .8s;
+  overflow: hidden;
+}
+
+.link {
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #8270be;
+  background: radial-gradient(rgba(255, 255, 255, 0.048), #ada5c738);
+  border-radius: 10px;
+  transition: .8s;
+  opacity: 0;
+}
+
+.link:hover {
+  background-color: #b7b4c428;
+}
+
+.card:hover {
+  height: 640px;
+  width: 600px;
+  border-radius: 10% 30%;
+}
+
+.card:hover .image {
+  width: 400px;
+  height: 400px;
+  top: -240px;
+  border-radius: 10% 30%;
+}
+
+.card:hover .mainText {
+  width: 90%;
+  height: 300px;
+  opacity: 1;
+  padding-right: 10px;
+  top: 180px;
+}
+
+.card:hover .link {
+  width: 200px;
+  height: 25px;
+  opacity: 1;
+}
+
+
+/* кастомизация скролла */
+
+.mainText::-webkit-scrollbar {
+  width: 10px;
+}
+
+.mainText::-webkit-scrollbar-track {
+  background: #2F2F37;
+}
+
+.mainText::-webkit-scrollbar-thumb {
+  background: #ada5c754;
+}
+
+.mainText::-webkit-scrollbar-thumb:hover {
+  background: #ada5c78a;
+}

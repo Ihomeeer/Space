@@ -1,0 +1,19 @@
+.section {
+  width: 100%;
+  height: 140px;
+  margin: 0 auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+  background-color: #160f2b;
+}
+
+.header {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ada5c7;
+}
