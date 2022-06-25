@@ -1,0 +1,39 @@
+.section {
+  height: fit-content;
+  padding-bottom: 140px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin: 20px auto;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  border-bottom: 5px solid #ada5c754;
+  line-height: 45px;
+  color: #ada5c7;
+  font-family: 'JetBrains Mono', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.list {
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid gold; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  list-style-type: none;
+}
+
+.listItem {
+  /* border: 1px solid blue; */
+  position: relative;
+  height: fit-content;
+  padding-top: 110px;
+}

@@ -12,6 +12,19 @@
   transition: 1s;
 }
 
+.title {
+  top: 50px;
+  overflow: hidden;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ada5c7;
+  font-family: 'JetBrains Mono', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: .7s;
+}
+
 .mainText {
   width: 0;
   height: 0;
@@ -27,6 +40,7 @@
   overflow-y: scroll;
   transition: .5s;
   opacity: 0;
+  font-family: 'JetBrains Mono', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .image {
@@ -58,10 +72,11 @@
   font-size: 20px;
   line-height: 25px;
   color: #8270be;
-  background: radial-gradient(rgba(255, 255, 255, 0.048), #ada5c738);
-  border-radius: 10px;
+  background: radial-gradient(#322657e0, #160f2bc4);
+  border-radius: 10% 30%;
   transition: .8s;
   opacity: 0;
+  font-family: 'JetBrains Mono', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .link:hover {
@@ -70,7 +85,7 @@
 
 .card:hover {
   height: 640px;
-  width: 600px;
+  width: 560px;
   border-radius: 10% 30%;
 }
 
@@ -86,7 +101,7 @@
   height: 300px;
   opacity: 1;
   padding-right: 10px;
-  top: 180px;
+  top: 190px;
 }
 
 .card:hover .link {
@@ -95,11 +110,16 @@
   opacity: 1;
 }
 
+.card:hover .title {
+  top: 150px;
+}
+
 
 /* кастомизация скролла */
 
 .mainText::-webkit-scrollbar {
   width: 10px;
+  cursor: pointer;
 }
 
 .mainText::-webkit-scrollbar-track {

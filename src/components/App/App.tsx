@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './App.module.css';
-import { darkNebulaItems } from '../../utils/data';
+import { darkNebulaItems, planetaryNebulaItems } from '../../utils/data';
 import { LoadingScreen } from '../LoadingScreen/LoadingScreen';
 import { Header } from '../Header/Header';
 import { Card } from '../Card/Card';
+import { ItemsList } from '../ItemsList/ItemsList';
 
 
 function App() {
@@ -11,9 +12,13 @@ function App() {
     <div className={styles.app}>
       <Header />
       {/* <LoadingScreen /> */}
-      <Card
-        item={darkNebulaItems[2]}
-
+      <ItemsList
+        data={darkNebulaItems}
+        title="Темные туманности"
+      />
+      <ItemsList
+        data={planetaryNebulaItems}
+        title="Планетарные туманности"
       />
     </div>
   );

@@ -5,7 +5,7 @@ export const Header = () => {
 
     <>
       <section className={styles.section}>
-        <h1 className={styles.header}></h1>
+        <h1 className={styles.header}>Небесные объекты</h1>
       </section>
     </>
   )

@@ -12,8 +12,9 @@
   height: fit-content;
   margin: 0 auto;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 60px;
   line-height: 70px;
   color: #ada5c7;
+  font-family: 'JetBrains Mono', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
