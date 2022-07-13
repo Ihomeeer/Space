@@ -12,14 +12,11 @@ TypeScript
 3. ДнД, просто для закрепления технологии
 
 ## Видео
-
+https://user-images.githubusercontent.com/77727865/178696323-a49ba724-e8cd-4102-9cd3-73dce7a4f581.mp4
 
 ## Управление
 ### `npm start`
 Runs the app in the development mode.
-
-### `npm test`
-Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 Builds the app for production to the `build` folder.
