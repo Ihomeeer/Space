@@ -34,8 +34,8 @@
   position: absolute;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 18px;
   color: #ada5c7;
   overflow-y: scroll;
   transition: .5s;
@@ -64,7 +64,7 @@
   position: absolute;
   width: 0;
   height: 0;
-  bottom: 50px;
+  bottom: 20px;
   text-align: center;
   text-decoration: none;
   font-style: normal;
@@ -80,28 +80,28 @@
 }
 
 .link:hover {
-  background-color: #b7b4c428;
+  background-color: #b7b4c46a;
 }
 
 .card:hover {
-  height: 640px;
-  width: 560px;
+  height: 440px;
+  width: 460px;
   border-radius: 10% 30%;
 }
 
 .card:hover .image {
-  width: 400px;
-  height: 400px;
-  top: -240px;
+  width: 300px;
+  height: 300px;
+  top: -180px;
   border-radius: 10% 30%;
 }
 
 .card:hover .mainText {
   width: 90%;
-  height: 300px;
+  height: 200px;
   opacity: 1;
   padding-right: 10px;
-  top: 190px;
+  top: 150px;
 }
 
 .card:hover .link {
@@ -111,7 +111,7 @@
 }
 
 .card:hover .title {
-  top: 150px;
+  top: 105px;
 }
 
 
